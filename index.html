@@ -3,7 +3,7 @@
 <head>
     <title>Fushili Translator</title>
     <style>
-        /* Apply gradient background */
+        
         body {
             background: linear-gradient(to bottom, lightblue 0%, turquoise 100%);
             height: 100vh;
@@ -11,32 +11,100 @@
             padding: 0;
         }
         
-        /* Header text styles */
-        h1 {
-            font-family: Arial, sans-serif;
-            font-size: 36px;
-            color: white;
-            text-shadow: 2px 2px grey;
-            text-align: center;
-            margin-top: 300px;
+        
+        #header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #f5f5f5; 
+          padding: 10px;
+          position: sticky;
+          top: 0;
+          z-index: 1;
+          border-bottom: 1px solid #444; 
         }
 
-        /* Center the iframe and header text in a column */
+        h1.project-mansion {
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            font-size: 24px; 
+        }
+
+        h1.fushili-translator {
+            color: white; 
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            font-size: 32px; 
+            text-shadow: 2px 2px black; 
+        }
+
+        .dropdown {
+            opacity: 0;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 200px;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        #header:hover .dropdown {
+            opacity: 0.9; 
+        }
+
+        .dropdown li {
+            list-style: none;
+            background-color: #fff;
+            padding: 10px;
+            border-top: 1px solid #444;
+        }
+
+        .dropdown li:first-child::before,
+        .dropdown li:last-child::before {
+            content: "🔗 ";
+        }
+
+        .dropdown li:not(:first-child) {
+            border-top: none;
+        }
+
+        .dropdown li a {
+            color: #1F2D3D;
+            text-decoration: none;
+            border-bottom: none;
+            font-size: 14px;
+            transition: color 0.3s ease-in-out; 
+        }
+
+        .dropdown li a:hover {
+            color: #3e4c59; 
+        }
+
+        h1.project-mansion a {
+            color: #003366;
+            text-decoration: none;
+        }
+
+        h1.project-mansion a:hover {
+          opacity: 0.7; 
+        }
+
+        
         #translator {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: calc(100vh - 300px);
-            margin-top: -20px;
+            margin-top: 50px; 
         }
 
-        /* Add margin to the top of the iframe to separate from header text */
+        
         #translator iframe {
-            margin-top: 20px; /* adjust the value as needed */
+            margin-top: 20px; 
         }
         
-        /* Footer styles */
+        
         footer {
             background-color: black;
             color: yellow;
@@ -50,15 +118,24 @@
     </style>
 </head>
 <body>
-    <!-- Embed the translator iframe -->
-    <div id="translator">
-        <h1>Fushili Translator</h1>
-        <iframe src="https://lingojam.com/embed/EnglishtoFushiliTranslator" style="width:700px; height:300px;"></iframe>
+    
+    <div id="header">
+      <h1 class="project-mansion"><a href="#">Project Mansion</a></h1>
+      <ul class="dropdown">
+        <li><a href="https://project-mansion.fandom.com/zh-hk/wiki/Main_Page">Wiki Page</a></li>
+        <li><a href="https://open.minecraft.net/pocket/realms/invite/J5gUEa62Yss">Minecraft Bedrock Realms</a></li>
+      </ul>
     </div>
     
-    <!-- Footer text -->
+    
+    <div id="translator">
+        <h1 class="fushili-translator" style="text-align: center;">Fushili Translator</h1>
+        <iframe src="http://lingojam.com/embed/EnglishtoFushiliTranslator" style="width:700px; height:300px; display: block; margin: 20px auto;"></iframe>
+    </div>
+
+    
     <footer>
-        🌸謹賀達通城立邦兩週年🌸｜達通城政府版權所有
+        🌸謹賀達通城立邦兩週年🌸｜版權歸達通城政府所有
     </footer>
 </body>
 </html>
