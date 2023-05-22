@@ -1,5 +1,6 @@
 [![正體中文](https://img.shields.io/badge/語言-正體中文-red.svg)](https://github.com/ryaeung/fushili/blob/main/README.zh-Hans.md)
 [![日本語](https://img.shields.io/badge/言語-日本語-yellow.svg)](https://github.com/ryaeung/fushili/blob/main/README.jp.md)
+[![푸서히리](https://img.shields.io/badge/구넷노-푸서히리-brightgreen.svg)](https://github.com/ryaeung/fushili/blob/main/README.fs.md)
 
 ---
 
