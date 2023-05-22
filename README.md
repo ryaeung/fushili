@@ -25,10 +25,12 @@
 - Plural forms or adverbs, like "s" "es" "ies" "ly" are not fully translated due to the vast amount of workload. A work around can be **adding suffixes** like `-s`, `-es`, `-ies` and `-ly`, then manually editing the output.<br>
 > lines ➔ line -s <br> 
 > oranges ➔ orange -s <br>
-> vastly ➔ vast -ly <br>
+> vastly ➔ vast -ly <br><br>
 
-![Before adding word forms](https://cdn.discordapp.com/attachments/1102284286880645165/1110134847348940841/before.png)
-![After adding word forms](https://cdn.discordapp.com/attachments/1102284286880645165/1110134863903862804/after.png)
+- **Below is a comparison of before vs after adding word forms:**<br>
+  -  Words like "products" gets to at least be partially translated
+![Before vs After adding word forms](https://cdn.discordapp.com/attachments/1102284286880645165/1110140409163808858/2023-05-22_5.41.33.png)
+                                                                                                                                  
 
 ### 🔍Translated words in brackets as output
 - There are many words in English where there are two meanings in a single word.<br>
