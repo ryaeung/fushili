@@ -55,6 +55,8 @@ For example, if `"go"` in `"go to"` is indicated as a verb here, input `go(v)` t
 > `where do we wait?` ➔ `(where[유헤레/뮤에 퍼라체]) 도 낫초멘 유아잍?`<br>
 > `where(q) do we wait?` ➔ `뮤에 퍼라체 도 낫초멘 유아잍?`<br>
 
+![Future usage of word states](https://cdn.discordapp.com/attachments/1102284286880645165/1110159045433774100/2023-05-22_6.55.36.png)
+
 ## 🌸Other Usage and License
 - If you want to make any changes, or use my code for your own translator website, feel free to use my HTML code!<br>
 - (I'd love to see what you're using this for). <br>
