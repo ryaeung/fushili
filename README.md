@@ -28,7 +28,7 @@
 > vastly ➔ vast -ly <br><br>
 
 - **Below is a comparison of before vs after adding word forms:**<br>
-  -  Words like "products" gets to at least be partially translated
+  -  Words like "products" gets to at least be partially translated (then just find and replace ` -` into null)
 ![Before vs After adding word forms](https://cdn.discordapp.com/attachments/1102284286880645165/1110140409163808858/2023-05-22_5.41.33.png)
                                                                                                                                   
 
