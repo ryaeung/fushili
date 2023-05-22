@@ -1,3 +1,5 @@
+[![正體中文](https://img.shields.io/badge/lang-zh--Hans-red.svg)](https://github.com/ryaeung/fushili/blob/main/README.zh-Hans.md)
+
 # Fushili Language
 
 ▪️ Welcome to the **[Fushili Language](https://project-mansion.fandom.com/zh-hk/wiki/%E8%BC%94%E8%A5%BF%E9%87%8C%E8%AA%9E)**  repository! <br><br>
