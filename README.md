@@ -1,4 +1,4 @@
-[![正體中文](https://img.shields.io/badge/lang-中文--Hans-red.svg)](https://github.com/ryaeung/fushili/blob/main/README.zh-Hans.md)
+[![正體中文](https://img.shields.io/badge/語言-正體中文-red.svg)](https://github.com/ryaeung/fushili/blob/main/README.zh-Hans.md)
 
 # Fushili Language
 
