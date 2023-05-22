@@ -27,7 +27,10 @@
 > oranges ➔ orange -s <br>
 > vastly ➔ vast -ly <br>
 
-### 🔍Translated words in brackets
+![Before adding word forms](https://cdn.discordapp.com/attachments/1102284286880645165/1110134847348940841/before.png)
+![After adding word forms](https://cdn.discordapp.com/attachments/1102284286880645165/1110134863903862804/after.png)
+
+### 🔍Translated words in brackets as output
 - There are many words in English where there are two meanings in a single word.<br>
 - Those words are usually separate words in Fushili, causing this to happen.<br>
 - A future workaround that may be added is to add **word state forms** (currently <em> NOT </em> supported yet)<br>
