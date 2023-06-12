@@ -43,6 +43,7 @@
 - Those words are usually separate words in Fushili, causing this to happen.<br>
 - A future workaround that may be added is to add **word state forms** (currently <em> NOT </em> supported yet)<br>
 For example, if `"go"` in `"go to"` is indicated as a verb here, input `go(v)` to get the correct translation, `코레에`, and for other uses type `go(o)` to get `고`.
+- There will be more support for ambiguity to the translator. For example, the word "right" may be automatically referenced by context as `릭헡` in "the right to..." but kept as `[right(릭헡/미기)]` in other cases.
 
 **State forms... maybe:** <br>
   >   `(n)`: indicates the noun meaning of a word.<br>
